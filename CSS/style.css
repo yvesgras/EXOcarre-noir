@@ -1,0 +1,48 @@
+h1 {
+    color: darkred;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: square;
+}
+
+.tout {
+    margin-left: 600px;
+}
+
+table {
+    color: rgb(0, 0, 0);
+    border-spacing: 0;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+td,
+th {
+    border: 2px solid royalblue;
+}
+
+th {
+    background-color: lavender
+}
+
+.carrenoir {
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 400px;
+    width: 600px;
+    flex-basis: 0%;
+    background-position: center;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.img {
+    background-image: url(../CSS/hydrangea.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    align-self: center;
+}
